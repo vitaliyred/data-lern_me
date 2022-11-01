@@ -4,4 +4,5 @@
    orders
    people
    returns - измененный
-   scripts_dashboard
+   scripts_dashboard - скрипт выборки данных для дашбордов
+   scripts_DBM - скрипт создания таблиц и связей
