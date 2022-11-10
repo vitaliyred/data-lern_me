@@ -1,13 +1,12 @@
 -- Динамика дохода и прибыли
 -- Sales and profit by time
 select 
-	to_char(order_date, 'YYYY') as year
-	, to_char(order_date, 'MM') as month
+	to_char(order_date, 'YYYY-MM') as date
 	, round(sum(sales), 0) as sales
 	, round(sum(profit), 0) as profit
 from datw.sales_fact_datw sfd 
-group by 1, 2 
-order by 1, 2;
+group by 1 
+order by 1;
 	
 
 
@@ -31,8 +30,8 @@ order by category;
 -- Sales by manager
 select 
 	coalesce (person, 'Total') as person
-	, round(sum(sales), 0) as Продажи
-	, round(sum(profit), 0) as Прибыль
+	, round(sum(sales), 0) as sales
+	, round(sum(profit), 0) as profit
 from 
 	datw.sales_fact_datw sfd
 	left join datw.geo_datw gd using(geo_id)
