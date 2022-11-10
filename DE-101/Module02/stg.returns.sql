@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS stg.stg.returns;
-CREATE TABLE stg.stg.returns(
+DROP TABLE IF EXISTS stg.returns;
+CREATE TABLE stg.returns(
    Returned   VARCHAR(10) NOT NULL
   ,Order_id   VARCHAR(20) NOT NULL
 );
