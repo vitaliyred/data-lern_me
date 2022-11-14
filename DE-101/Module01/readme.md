@@ -1,1 +1,5 @@
-## Это пробная версия создания ответа на дз модуль 1
+# DE-101-Module1
+## РђСЂС…РёС‚РµРєС‚СѓСЂР° РђРЅР°Р»РёС‚РёС‡РµСЃРєРѕРіРѕ Р РµС€РµРЅРёСЏ
+! [task_1](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module01/task_1.pdf)
+## Р”Р°С€Р±РѕСЂРґ
+! [dashboards_mini](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module01/dashboards_mini.pdf)
