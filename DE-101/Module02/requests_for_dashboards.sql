@@ -80,8 +80,8 @@ select
 	coalesce (to_char(order_date, 'YYYY'), 'Total') as year
 	, round(sum(sales), 0) as sales 
 	, round(sum(profit), 0) as profit
-	, round(sum(profit) / sum(sales), 2) as profit_ratio
-	, round(avg(discount), 2) as avg_discount
+	, round(sum(profit) / sum(sales) * 100, 1) as profit_ratio
+	, round(avg(discount) * 100, 1) as avg_discount
 from datw.sales_fact_datw sfd 
 group by rollup(to_char(order_date, 'YYYY'))
 order by to_char(order_date, 'YYYY');
@@ -108,13 +108,13 @@ order by state;
 with s_s as
 	(select sum(sales) as sum_sales from datw.sales_fact_datw sfd)
 select 
-	coalesce (region, 'Total') as region 
-	, round(sum(sales) / sum_sales * 100, 1) as "Продажи_%"
+	region 
+	, round(sum(sales) / sum_sales * 100, 1) as "Sales_%"
 from s_s, 
 	datw.sales_fact_datw
 	left join datw.geo_datw using(geo_id)
 	left join datw.person_datw pd using(person_id)
-group by rollup (region), sum_sales;
+group by region, sum_sales;
 
 
 
