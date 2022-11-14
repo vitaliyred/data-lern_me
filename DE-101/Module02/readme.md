@@ -1,21 +1,21 @@
 # DE-101-Module-02
-## SQL запросы 
-### Запросы для создания схемы stg(staging) и заполнения таблиц в ней
+## SQL Р·Р°РїСЂРѕСЃС‹ 
+### Р—Р°РїСЂРѕСЃС‹ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ СЃС…РµРјС‹ stg(staging) Рё Р·Р°РїРѕР»РЅРµРЅРёСЏ С‚Р°Р±Р»РёС† РІ РЅРµР№
 * [stg.orders](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/stg.orders.sql)
 * [stg.people](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/stg.people.sql)
 * [stg.returns](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/stg.returns.sql)
 
-## Модели данных
-### Концептуальная модель данных
+## РњРѕРґРµР»Рё РґР°РЅРЅС‹С…
+### РљРѕРЅС†РµРїС‚СѓР°Р»СЊРЅР°СЏ РјРѕРґРµР»СЊ РґР°РЅРЅС‹С…
 ![Conceptual](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/Conceptual_data_model.jpg)
-### Физическая модель данных
+### Р¤РёР·РёС‡РµСЃРєР°СЏ РјРѕРґРµР»СЊ РґР°РЅРЅС‹С…
 ![Phisical](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/Physical_data_model.jpg)
 
-### Запросы для создания схемы datw и заполнения таблиц в ней
+### Р—Р°РїСЂРѕСЃС‹ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ СЃС…РµРјС‹ datw Рё Р·Р°РїРѕР»РЅРµРЅРёСЏ С‚Р°Р±Р»РёС† РІ РЅРµР№
 * [stg_to_datw(DBM)](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/stg_to_datw(DBM).sql)
 
-### Запросы для анализа данных
+### Р—Р°РїСЂРѕСЃС‹ РґР»СЏ Р°РЅР°Р»РёР·Р° РґР°РЅРЅС‹С…
 * [requests_for_dashboards](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/requests_for_dashboards.sql)
 
-## Работа с БД в облаке и создание дашборда в Yandaex DataLens
+## Р Р°Р±РѕС‚Р° СЃ Р‘Р” РІ РѕР±Р»Р°РєРµ Рё СЃРѕР·РґР°РЅРёРµ РґР°С€Р±РѕСЂРґР° РІ Yandaex DataLens
 ![Dashboards_YDL](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module02/Dashboards_YDL.jpg)
