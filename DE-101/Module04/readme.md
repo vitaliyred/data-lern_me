@@ -12,6 +12,7 @@
 
 ### transformations таблиц схемы stg(Staging) в таблицы схемы dw(Dimension Tables)
 *[dim_tables.ktr](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/dim_tables.ktr)
+
 *[sales_fact.ktr](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/sales_fact.ktr)
 
 ![dim_tables](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/dim_tables.png)
@@ -22,4 +23,6 @@
 
 ![final_job](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/job_big.png)
 
+### SQL код для создания таблиц в новой бд
+*[Script_DB.sql](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/Script_DB.sql)
 
