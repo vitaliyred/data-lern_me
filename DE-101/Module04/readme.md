@@ -28,3 +28,5 @@
 
 ### Конечный результат после исполения *[final_job](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/pentaho_job.kjb)
 ![result.png](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/result.png)
+
+
