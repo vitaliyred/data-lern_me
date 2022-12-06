@@ -7,6 +7,19 @@
 
 ### transformations sample-superstore в orders, peoples, returns схемы stg
 *[staging_orders.ktr](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/staging_orders.ktr)
+
 ![staging_orders](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/staging_orders.png)
+
+### transformations таблиц схемы stg(Staging) в таблицы схемы dw(Dimension Tables)
+*[dim_tables.ktr](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/dim_tables.ktr)
+*[sales_fact.ktr](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/sales_fact.ktr)
+
+![dim_tables](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/dim_tables.png)
+![sales_fact](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/sales_fact.png)
+
+### финальный job, в котором объеденены предыдущие щаги
+*[final_job](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/pentaho_scripts/pentaho_job.kjb)
+
+![final_job](https://github.com/vitaliyred/data-lern_me/blob/main/DE-101/Module04/Lab_4.4/screenshot/job_big.png)
 
 
